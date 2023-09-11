@@ -1,0 +1,3 @@
+head(Book1)
+linear.model <- lm(Glucose ~ Age, data = Book1)
+summary(linear.model)
